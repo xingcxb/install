@@ -30,7 +30,7 @@ for package in "${software_list[@]}"; do
     fi
 done
 
-softCasks_list=("iina" "applite" "iterm2" "keycastr" "latest" "mos" "zed" "google-chrome" "firefox" "pixpin" "jetbrains-toolbox" "visual-studio-code" "github" "fork" "transmit" "apifox" "sublime-text" "finalshell" "wireshark" "typora" "cherry-studio" "chatgpt" "follow" "obsidian" "vmware-fusion")
+softCasks_list=("iina" "applite" "iterm2" "keycastr" "latest" "mos" "zed" "google-chrome" "firefox" "pixpin" "jetbrains-toolbox" "visual-studio-code" "github" "fork" "transmit" "apifox" "sublime-text" "finalshell" "wireshark" "typora" "cherry-studio" "chatgpt" "follow" "obsidian" "vmware-fusion" "brave")
 
 for package in "${software_list[@]}"; do
     echo "Checking if $package is installed..."
