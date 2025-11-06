@@ -32,9 +32,9 @@ done
 
 softCasks_list=("iina" "applite" "iterm2" "keycastr" "latest" "mos" "zed" "google-chrome" "firefox" "pixpin" "jetbrains-toolbox" "visual-studio-code" "github" "fork" "transmit" "apifox" "sublime-text" "finalshell" "wireshark" "typora" "cherry-studio" "chatgpt" "follow" "obsidian" "vmware-fusion" "brave-browser")
 
-for package in "${software_list[@]}"; do
+for package in "${softCasks_list[@]}"; do
     echo "Checking if $package is installed..."
-    if brew list --versions "$package" > /dev/null; then
+    if brew list --cask --versions "$package" > /dev/null; then
         echo "$package 已经安装，跳过。"
     else
         echo "Installing $package..."
