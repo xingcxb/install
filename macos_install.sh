@@ -18,7 +18,7 @@ else
     brew update && brew upgrade && brew cleanup
 fi
 
-software_list=("git" "wget" "node" "aliyunpan" "neofetch" "tree" "neovim" "upx" "wget" "hugo" "nvm" "protobuf" "docker" "sqlite" "yarn" "telnet")
+software_list=("git" "wget" "node" "aliyunpan" "neofetch" "tree" "neovim" "upx" "wget" "hugo" "nvm" "protobuf" "docker" "sqlite" "yarn" "telnet" "tw93/tap/mole")
 
 for package in "${software_list[@]}"; do
     echo "Checking if $package is installed..."
